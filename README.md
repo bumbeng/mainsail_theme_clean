@@ -1,6 +1,6 @@
 # Mainsail clean theme
 
-![Screenshot 2023-11-07 025826](https://github.com/bumbeng/mainsail_clean_theme/assets/111509593/64b8776e-76a4-40bb-84a7-2c059bcbed77)
+![Screenshot](https://github.com/bumbeng/mainsail_theme_clean/assets/111509593/8dd7ae81-50b6-441d-8057-842e97c2e9d4)
 
 
 - make hidden folders visible
