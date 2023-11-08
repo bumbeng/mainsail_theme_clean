@@ -457,3 +457,6 @@ img {
 .codeview[data-v-7831183a] {
     border-radius: 0.5em;
 }
+.v-application .primary {
+    background-color: #4d4d4d !important;
+}
