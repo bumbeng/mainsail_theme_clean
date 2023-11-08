@@ -388,7 +388,6 @@ img {
 
 .theme--dark.v-card>.v-card__text, .theme--dark.v-card>.v-card__subtitle {
     color: #ffffffb3;
-    background-color: transparent !important;
     backdrop-filter: blur(50px)!important;
     -webkit-backdrop-filter: blur(50px);
 }
