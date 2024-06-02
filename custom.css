@@ -19,7 +19,9 @@
 .v-application .mb-2 {
     margin-bottom: 30px!important;
 }
-
+span.webcamFpsOutput {
+    border-radius: 10px !important;
+}
 .topbar{
     box-shadow: none !important;
     background-color: rgba(25,25,25,0.6) !important;
@@ -32,13 +34,14 @@
     height: 80px !important;
 }
 
-svg g.home_button[data-v-7e121d54], svg a#home_all_center[data-v-7e121d54] {
-    fill: #cd7f2a;
-    transition: opacity .25s;
+svg g.home_button,
+svg a#home_all_center {
+    fill: #cd7f2a !important;
+    transition: opacity .25s !important;
 }
 
-svg a#stepper_off.warning[data-v-7e121d54] {
-    fill: #cd7f2a;
+svg a#stepper_off.warning {
+    fill: #cd7f2a !important;
 }
 
 .v-main{
@@ -77,11 +80,6 @@ svg a#stepper_off.warning[data-v-7e121d54] {
     border-radius: 0.5em;
 }
 
-.active-nav-item[data-v-57379e73]{
-    padding-left: 12px;
-    border-right: none;
-    border-left: 4px solid white;
-}
 
 .v-tabs-slider-wrapper{
     background: #FFFFFF;
@@ -167,11 +165,11 @@ svg a#stepper_off.warning[data-v-7e121d54] {
     border: none !important;
 }
 
-.webcamImage[data-v-54b8defe] {
-    background: lightgray;
+.webcamImage {
+    background: lightgray !important;
     border-color: transparent !important;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em !important;
+    border-bottom-right-radius: 1em !important;
 }
 
 .v-data-table>.v-data-table__wrapper {
@@ -207,12 +205,12 @@ svg a#stepper_off.warning[data-v-7e121d54] {
     border-bottom-left-radius: 1em;
 }
 
-.webcamImage[data-v-54b8defe] {
-    width: 100%;
+.webcamImage {
+    width: 100% !important;
     background: black;
     border-color: black !important;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em !important;
+    border-bottom-right-radius: 1em !important;
 }
 
 .nav-logo {
@@ -284,16 +282,11 @@ svg a#stepper_off.warning[data-v-7e121d54] {
     background-color: rgba(23, 23,23,0.3);
 }
 
-.webcamImage[data-v-951c0690] {
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+.webcamImage,
+.expanded header.v-toolbar {
+    border-bottom-left-radius: 1em !important;
+    border-bottom-right-radius: 1em !important;
 }
-
-.expanded header.v-toolbar[data-v-467ae16f] {
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-}
-
 .v-tab {
     font-size: .78rem !important;
 }
@@ -337,9 +330,9 @@ img {
     caret-color: var(--v-primary-base) !important;
 }
 
-.small-list-item[data-v-99ab1bec] {
-    height: var(--sidebar-menu-item-height);
-    margin-top: 10px;
+.small-list-item {
+    height: var(--sidebar-menu-item-height) !important;
+    margin-top: 10px !important;
 }
 
 .v-text-field fieldset, .v-text-field .v-input__control, .v-text-field .v-input__slot {
@@ -356,9 +349,9 @@ img {
     height: calc(var(--app-height) - 280px);
 }
 
-._btn-group .v-btn[data-v-3646954a] {
-    border-left-width: 0;
-    border-radius: 0.5em;
+._btn-group .v-btn {
+    border-left-width: 0 !important;
+    border-radius: 0.5em !important;
 }
 
 .v-application a {
@@ -369,12 +362,8 @@ img {
     color: #f44336 !important;
 }
 
-._btn-group[data-v-39126767] {
-    border-radius: 6px;
-}
-
-._btn-group[data-v-025ffe94] {
-    border-radius: 6px;
+._btn-group {
+    border-radius: 6px !important;
 }
 
 .theme--dark.v-btn.v-btn--has-bg {
@@ -396,8 +385,9 @@ img {
     color: white;
 }
 
-.dragable-item[data-v-50fe7cb0], .dragable-item[data-v-2ba4ce8c] {
-    border-radius: 1em;
+.dragable-item {
+    border-radius: 1em !important;
+    background-color: rgba(23,23,23,0.3) !important;
 }
 
 .v-card__title+.v-card__subtitle, .v-card__title+.v-card__text {
@@ -420,10 +410,6 @@ img {
 
 .v-btn {
     border-radius: 6px;
-}
-
-.dragable-item[data-v-50fe7cb0], .dragable-item[data-v-2ba4ce8c] {
-    background-color: rgba(23,23,23,0.3);
 }
 
 .ͼo {
@@ -452,8 +438,8 @@ img {
     background-color: #fb8c00;
 }
 
-.codeview[data-v-7831183a] {
-    border-radius: 0.5em;
+.codeview {
+    border-radius: 0.5em !important;
 }
 .v-application .primary {
     background-color: #4d4d4d !important;
